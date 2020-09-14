@@ -1,4 +1,11 @@
 import { Component } from '@angular/core';
+import { ViewChild } from '@angular/core';
+
+
+var current_date = new Date()
+var cday = current_date.getDay()
+console.log(cday);
+
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +14,16 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  mySlideOptions = {
+    initialSlide: cday,  
+    speed: 300,
+    effect: 'flip',
+  };
+
+
   constructor() {}
+ 
+
 
 }
+

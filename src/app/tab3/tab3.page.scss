@@ -1,1 +1,20 @@
+#head{
+    max-height: 27vh;
+    // max-width: 306px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
 
+#head img{
+    max-height: 27vh;
+    max-width: 306px;
+}
+
+ion-slide ion-card{
+    height: 48vh;
+    overflow-y: scroll;
+    text-align: left;
+    padding-bottom: 5px;
+}

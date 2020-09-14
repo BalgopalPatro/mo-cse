@@ -1,5 +1,7 @@
 {
   "name": "Mo CSE",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
